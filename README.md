@@ -7,7 +7,7 @@ Remaining details ,  how to fill and what to fill , you will get to know when yo
                           
                           
 Modules:
-1) from fpdf import FPDF : It will save your all details in pdf for
+1) from fpdf import FPDF : It will save your all details in pdf form
 2) tkinter               :  For Gui.
 
 
