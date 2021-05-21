@@ -125,6 +125,7 @@ def add_details(mess):
     mess.delete('1.0', END)
     print('all_details',all_details)
     return 
+
 def clear_details(mess):
     all_details.clear()
     mess.delete('1.0', END)
