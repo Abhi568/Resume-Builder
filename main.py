@@ -313,6 +313,7 @@ def add_web(title_Website):
     title_Website.delete('1.0',END)
     print('all_web',all_web)
     return 
+
 def clear_web(title_Website):
     all_web.clear()
     title_Website.delete('1.0',END)
