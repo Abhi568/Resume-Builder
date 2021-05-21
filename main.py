@@ -337,6 +337,7 @@ def add_acheive(title_acheive):
     title_acheive.delete('1.0',END)
     print('all_acheive',all_acheive)
     return 
+
 def clear_acheive(title_acheive):
     all_acheive.clear()
     title_acheive.delete('1.0',END)
