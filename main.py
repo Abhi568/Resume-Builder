@@ -38,7 +38,6 @@ def add(value):
             pdf.multi_cell(w=0,h=5,txt=all_edu[i][1],align="L")
     
     if len(all_exp)>0 and all_exp[0][1]!='NA' and value!=2:
-        
         pdf.cell(w=0,h=4,txt='',ln=1,align="L")
         text="Experience :"
         pdf.set_text_color(0,181,226)
