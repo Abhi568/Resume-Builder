@@ -49,6 +49,7 @@ def add(value):
             pdf.multi_cell(w=0,h=5,txt=all_exp[i][0]+" :",align="L")
             pdf.set_font("Arial",size=13) # For paragraph text
             pdf.multi_cell(w=0,h=5,txt=all_exp[i][1],align="L")
+            
     if len(all_pro)>0:
         pdf.cell(w=0,h=4,txt='',ln=1,align="L")
         text="Projects :"
