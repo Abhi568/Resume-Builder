@@ -403,6 +403,7 @@ def clear_profile(title_profile):
     title_profile.delete('1.0',END)
     print(all_profile)
     return
+
 def stop_adding_profile(title_profile):
     s1=""
     result=title_profile.get(1.0, tk.END+"-1c")
