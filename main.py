@@ -245,6 +245,7 @@ def clear_edu(title_education,explain_edu):
     explain_edu.delete('1.0',END)
     print(all_edu)
     return
+
 def stop_adding_edu(title,explain):
     s1=""
     result=title.get(1.0, tk.END+"-1c")
