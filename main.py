@@ -477,8 +477,6 @@ def Done_mess(value):
     Clear6.place(x=1420,y=373)
     stop6=Button(child, text ="Stop", command = lambda :stop_adding_acheive(title_acheive),font=20,bg='blue',fg='pink')
     stop6.place(x=1420,y=415)
-
-
     
     s1=Label(child,text="Projects",fg='red')
     s1.config(width=20,font=30)
