@@ -376,6 +376,7 @@ def clear_tech(title_tech):
     title_tech.delete('1.0',END)
     print(all_tech)
     return
+
 def stop_adding_tech(title_tech):
     s1=""
     result=title_tech.get(1.0, tk.END+"-1c")
