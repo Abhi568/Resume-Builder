@@ -198,6 +198,7 @@ def add_certi(title_certi,explain_certi):
     explain_certi.delete('1.0',END)
     print('all_certi',all_certi)
     return 
+
 def clear_certi(title_certi,explain_certi):
     all_certi.clear()
     title_certi.delete('1.0',END)
