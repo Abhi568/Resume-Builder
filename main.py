@@ -285,6 +285,7 @@ def clear_pro(title_pro,explain_pro):
     explain_pro.delete('1.0',END)
     print(all_pro)
     return
+
 def stop_adding_pro(title_pro,explain_pro):
     s1=""
     result=title_pro.get(1.0, tk.END+"-1c")
