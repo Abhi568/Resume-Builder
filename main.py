@@ -278,6 +278,7 @@ def add_pro(title_pro,explain_pro):
     explain_pro.delete('1.0',END)
     print('all_pro',all_pro)
     return 
+
 def clear_pro(title_pro,explain_pro):
     all_pro.clear()
     title_pro.delete('1.0',END)
