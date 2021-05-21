@@ -5,7 +5,7 @@ from tkinter import messagebox
 from fpdf import FPDF
 master = Tk()  
 def add(value):
-
+    
     pdf = FPDF()
     pdf.add_page()
 
