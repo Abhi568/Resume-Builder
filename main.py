@@ -165,6 +165,7 @@ def clear_exp(title_exp,explain_exp):
     title_exp.delete('1.0',END)
     explain_exp.delete('1.0',END)
     return
+
 def stop_adding_exp(title_exp,explain_exp):
     s1=""
     result=title_exp.get(1.0, tk.END+"-1c")
