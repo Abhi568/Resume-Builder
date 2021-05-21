@@ -319,6 +319,7 @@ def clear_web(title_Website):
     title_Website.delete('1.0',END)
     print(all_web)
     return
+
 def stop_adding_web(title_Website):
     s1=""
     result=title_Website.get(1.0, tk.END+"-1c")
