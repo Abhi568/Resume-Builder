@@ -563,6 +563,7 @@ e2.place(x=1220,y=455)
 # this will arrange entry widgets 
 e1.config(width=300,height=321)
 e2.config(width=300,height=319)
+
 mainloop()
 
 
