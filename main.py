@@ -130,6 +130,7 @@ def clear_details(mess):
     all_details.clear()
     mess.delete('1.0', END)
     print(all_details)
+    
 def stop_adding_details(mess):
     s=""
     result=mess.get(1.0, tk.END+"-1c")
