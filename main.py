@@ -394,6 +394,7 @@ def add_profile(title_profile):
     title_profile.delete('1.0',END)
     print('all_profile',all_profile)
     return 
+
 def clear_profile(title_profile):
     all_profile.clear()
     title_profile.delete('1.0',END)
