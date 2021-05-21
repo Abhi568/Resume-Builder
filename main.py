@@ -343,6 +343,7 @@ def clear_acheive(title_acheive):
     title_acheive.delete('1.0',END)
     print(all_acheive)
     return
+
 def stop_adding_acheive(title_acheive):
     s1=""
     result=title_acheive.get(1.0, tk.END+"-1c")
