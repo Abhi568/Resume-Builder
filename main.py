@@ -84,6 +84,7 @@ def add(value):
             pdf.set_text_color(0,0,0)
             pdf.set_font("Arial",size=13) # For paragraph text
             pdf.multi_cell(w=0,h=5,txt=all_acheive[i],align="L")
+            
     if len(all_tech)>0:
         pdf.cell(w=0,h=4,txt='',ln=1,align="L")
         text="Technologies/Skills :"
