@@ -22,7 +22,8 @@ def add(value):
         else:
 
             pdf.set_font("Arial",size=13) # For paragraph text
-            pdf.multi_cell(w=0,h=10,txt=all_details[i],align="R")            
+            pdf.multi_cell(w=0,h=10,txt=all_details[i],align="R") 
+            
     if len(all_edu)>0:
         pdf.cell(w=0,h=4,txt='',ln=1,align="L")
         text="Education :"
