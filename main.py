@@ -205,13 +205,13 @@ def clear_certi(title_certi,explain_certi):
     explain_certi.delete('1.0',END)
     print(all_certi)
     return
+
 def stop_adding_certi(title_certi,explain_certi):
     s1=""
     result=title_certi.get(1.0, tk.END+"-1c")
     for i in result:
         if i!='\n':
             s1=s1+i
-
     s2=""
     result=explain_certi.get(1.0, tk.END+"-1c")
     for i in result:
