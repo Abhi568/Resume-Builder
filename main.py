@@ -238,6 +238,7 @@ def add_edu(title_education,explain_edu):
     explain_edu.delete('1.0',END)
     print('all_edu',all_edu)
     return 
+
 def clear_edu(title_education,explain_edu):
     all_edu.clear()
     title_education.delete('1.0',END)
