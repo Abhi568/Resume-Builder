@@ -370,6 +370,7 @@ def add_tech(title_tech):
     title_tech.delete('1.0',END)
     print('all_tech',all_tech)
     return 
+
 def clear_tech(title_tech):
     all_tech.clear()
     title_tech.delete('1.0',END)
